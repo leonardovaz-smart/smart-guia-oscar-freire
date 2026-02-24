@@ -6,6 +6,16 @@ interface LocationCardProps {
   location: Location;
 }
 
+const WalkingIcon = () => (
+  <svg 
+    className="w-4 h-4" 
+    viewBox="0 0 24 24" 
+    fill="currentColor"
+  >
+    <path d="M13.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM9.8 8.9L7 20H9l2.1-7.3L13 15v5h2V14l-2.4-2.4.6-2.8c1.1 1.3 2.7 2.2 4.8 2.2V9c-1.8 0-3.3-.8-4.2-2.1L12.9 5c-.4-.7-1.2-1.1-2.1-1.1-.3 0-.6.1-.9.2L5 6.4V12h2V8.5l1.8-.7.6 2.1z" />
+  </svg>
+);
+
 const LocationCard: React.FC<LocationCardProps> = ({ location }) => {
   return (
     <div className="bg-[#111111] rounded-2xl border border-zinc-800 p-6 flex flex-col h-full hover:border-[#31D889]/30 transition-colors duration-300">
@@ -18,9 +28,7 @@ const LocationCard: React.FC<LocationCardProps> = ({ location }) => {
 
       <div className="flex items-center gap-3 text-sm text-zinc-400 mb-4">
         <div className="flex items-center gap-1">
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
+          <WalkingIcon />
           {location.timeToWalk}
         </div>
         <div className="font-bold text-[#31D889]">

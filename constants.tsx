@@ -88,7 +88,7 @@ export const LOCATIONS: Location[] = [
     category: Category.Servicos,
     insight: 'Medicamentos, produtos de higiene e perfumaria e farmácia de manipulação',
     timeToWalk: '2 min',
-    priceRange: '$$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/mkVPXrrQAqx4Bsxh6',
     isEconomic: false
   },
@@ -108,9 +108,9 @@ export const LOCATIONS: Location[] = [
     category: Category.Servicos,
     insight: 'Medicamentos, produtos de higiene e perfumaria',
     timeToWalk: '1 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/uHDgRV6MZa7ueASTA',
-    isEconomic: true
+    isEconomic: false
   },
   {
     id: '12',
@@ -126,7 +126,7 @@ export const LOCATIONS: Location[] = [
     id: '13',
     name: 'Café Zinn',
     category: Category.Restaurantes,
-    insight: 'Café da manhã, almoço, brunch e happy hour',
+    insight: 'Café da manhã, almoço, brunh e happy hour',
     timeToWalk: '6 min',
     priceRange: '$$$',
     mapsUrl: 'https://maps.app.goo.gl/G4U13b8H6yvcAct88',
@@ -136,7 +136,7 @@ export const LOCATIONS: Location[] = [
     id: '14',
     name: 'Café Zinn (Doces)',
     category: Category.CafesEDoces,
-    insight: 'Café da manhã, almoço, brunch e happy hour',
+    insight: 'Café da manhã, almoço, brunh e happy hour',
     timeToWalk: '6 min',
     priceRange: '$$$',
     mapsUrl: 'https://maps.app.goo.gl/G4U13b8H6yvcAct88',
@@ -324,96 +324,86 @@ export const LOCATIONS: Location[] = [
   },
   {
     id: '33',
-    name: 'PoPa Artesanal Hot-Dog',
-    category: Category.Lanches,
-    insight: 'Hot dog em pão artesanal e salsichas especiais feitos na própria casa',
-    timeToWalk: '2 min',
-    priceRange: '$$',
-    mapsUrl: 'https://maps.app.goo.gl/u7xE9N5jQCcnsMEV8',
-    isEconomic: false
-  },
-  {
-    id: '34',
     name: 'Banco Itaú',
     category: Category.Servicos,
     insight: 'Agência bancária próxima para resolver rotinas financeiras.',
     timeToWalk: '6 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/yLCRqcwRnXX5BeWU6',
-    isEconomic: true
+    isEconomic: false
   },
   {
-    id: '35',
+    id: '34',
     name: 'Itaú Personnalité',
     category: Category.Servicos,
     insight: 'Atendimento financeiro premium muito conveniente, a apenas 3 minutos.',
     timeToWalk: '3 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/6t5R9on3x1wSrTto7',
-    isEconomic: true
+    isEconomic: false
   },
   {
-    id: '36',
+    id: '35',
     name: 'Caixa Econômica Federal',
     category: Category.Servicos,
     insight: 'Útil para resolver questões bancárias, financiamentos e serviços do governo.',
     timeToWalk: '7 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/Udn3jahDX7RXdj2e9',
-    isEconomic: true
+    isEconomic: false
   },
   {
-    id: '37',
+    id: '36',
     name: 'Banco do Brasil',
     category: Category.Servicos,
     insight: 'Agência de fácil acesso para clientes e serviços.',
     timeToWalk: '7 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/K4VyAHEdS9ACZSaZ7',
-    isEconomic: true
+    isEconomic: false
   },
   {
-    id: '38',
+    id: '37',
     name: 'Bradesco',
     category: Category.Servicos,
     insight: 'Opção prática de banco a uma curta caminhada de 6 minutos.',
     timeToWalk: '6 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/MbcSCZbAzdjBcgaH8',
-    isEconomic: true
+    isEconomic: false
   },
   {
-    id: '39',
+    id: '38',
     name: 'Droga Raia',
     category: Category.Servicos,
     insight: 'Ampla rede de farmácia, excelente para itens de higiene e dermocosméticos.',
     timeToWalk: '5 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/4CxqPf8GbRRUEqFf9',
-    isEconomic: true
+    isEconomic: false
   },
   {
-    id: '40',
+    id: '39',
     name: 'Pague Menos',
     category: Category.Servicos,
     insight: 'A farmácia mais conveniente da lista (1 min), ideal para emergências imediatas.',
     timeToWalk: '1 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/j7kBcHNp9Qq4q5cX6',
-    isEconomic: true
+    isEconomic: false
   },
   {
-    id: '41',
+    id: '40',
     name: 'Metrô Oscar Freire',
     category: Category.Transporte,
     insight: 'Ponto de mobilidade crucial (Linha Amarela), conectando facilmente a outras regiões.',
     timeToWalk: '13 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/oo1uNm585QQc15Uq6',
-    isEconomic: true
+    isEconomic: false
   },
   {
-    id: '42',
+    id: '41',
     name: 'Livraria da Vila',
     category: Category.Servicos,
     insight: 'Dar uma olhada nas novidades, comprar um bom livro e saborear as famosas empanadas do La Guapa Empanadas',
@@ -423,40 +413,30 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '43',
-    name: 'Oscar Café',
+    id: '42',
+    name: 'Le Pain Quotidien',
     category: Category.CafesEDoces,
-    insight: 'Café charmoso e descontraído no coração do Jardins, popular para refeições rápidas e cafés diferenciados.',
-    timeToWalk: '12 min',
+    insight: 'Cadeia belga de padarias orgânicas, oferece pães artesanais, pratos saudáveis e brunch estilo europeu (210 m)2.',
+    timeToWalk: '3 min',
     priceRange: '$$',
-    mapsUrl: 'https://maps.app.goo.gl/DG3NuaXezVCtvLAo8',
+    mapsUrl: 'https://maps.app.goo.gl/3nTyBYG5k8wG98Fb6',
+    isEconomic: false
+  },
+  {
+    id: '43',
+    name: 'Le Pain Quotidien (Restaurante)',
+    category: Category.Restaurantes,
+    insight: 'Cadeia belga de padarias orgânicas, oferece pães artesanais, pratos saudáveis e brunch estilo europeu (210 m)2.',
+    timeToWalk: '3 min',
+    priceRange: '$$',
+    mapsUrl: 'https://maps.app.goo.gl/3nTyBYG5k8wG98Fb6',
     isEconomic: false
   },
   {
     id: '44',
-    name: 'Le Pain Quotidien',
-    category: Category.CafesEDoces,
-    insight: 'Cadeia belga de padarias orgânicas, oferece pães artesanais, pratos saudáveis e brunch estilo europeu',
-    timeToWalk: '3 min',
-    priceRange: '$$',
-    mapsUrl: 'https://maps.app.goo.gl/3nTyBYG5k8wG98Fb6',
-    isEconomic: false
-  },
-  {
-    id: '44-rest',
-    name: 'Le Pain Quotidien (Restaurante)',
-    category: Category.Restaurantes,
-    insight: 'Cadeia belga de padarias orgânicas, oferece pães artesanais, pratos saudáveis e brunch estilo europeu',
-    timeToWalk: '3 min',
-    priceRange: '$$',
-    mapsUrl: 'https://maps.app.goo.gl/3nTyBYG5k8wG98Fb6',
-    isEconomic: false
-  },
-  {
-    id: '44-pad',
     name: 'Le Pain Quotidien (Padaria)',
     category: Category.Padarias,
-    insight: 'Cadeia belga de padarias orgânicas, oferece pães artesanais, pratos saudáveis e brunch estilo europeu',
+    insight: 'Cadeia belga de padarias orgânicas, oferece pães artesanais, pratos saudáveis e brunch estilo europeu (210 m)2.',
     timeToWalk: '3 min',
     priceRange: '$$',
     mapsUrl: 'https://maps.app.goo.gl/3nTyBYG5k8wG98Fb6',
@@ -476,7 +456,7 @@ export const LOCATIONS: Location[] = [
     id: '46',
     name: 'Almanara',
     category: Category.Restaurantes,
-    insight: 'Tradicional restaurante libanês com rodízio de pratos árabes (espetinhos, quibes, esfihas) e menu à la carte; sabor autêntico',
+    insight: 'Tradicional restaurante libanês com rodízio de pratos árabes (espetinhos, quibes, esfihas) e menu à la carte; sabor autêntico4.',
     timeToWalk: '5 min',
     priceRange: '$$',
     mapsUrl: 'https://maps.app.goo.gl/8CMdKibjKLWoiz126',
@@ -486,7 +466,7 @@ export const LOCATIONS: Location[] = [
     id: '47',
     name: 'Nakka Sushi',
     category: Category.Restaurantes,
-    insight: 'Sushi bar e rodízio japonês no Jardins, oferece variedade de sushis, sashimis e pratos orientais, considerado um “pedaço do Japão”',
+    insight: 'Sushi bar e rodízio japonês no Jardins, oferece variedade de sushis, sashimis e pratos orientais, considerado um “pedaço do Japão”5.',
     timeToWalk: '10 min',
     priceRange: '$$$$',
     mapsUrl: 'https://maps.app.goo.gl/d5WSEzkR7UZ8iGF36',
@@ -819,7 +799,7 @@ export const LOCATIONS: Location[] = [
     insight: 'Gastronomia italiana intimista e de altíssimo nível, muito pertinho do escritório.',
     timeToWalk: '2 min',
     priceRange: '$$$$',
-    mapsUrl: 'https://maps.app.goo.gl/bsTmdwkbJ5y3Dye6',
+    mapsUrl: 'https://maps.app.goo.gl/bs8TmdkbJ5y3Dye6',
     isEconomic: false
   },
   {
@@ -854,7 +834,7 @@ export const LOCATIONS: Location[] = [
   },
   {
     id: '84',
-    name: 'Restaurante Maracujá (Econômico)',
+    name: 'Restaurante Maracujá',
     category: Category.Restaurantes,
     insight: 'Opção equilibrada e com valor justo para variar o cardápio no meio da semana.',
     timeToWalk: '8 min',
@@ -1056,7 +1036,7 @@ export const LOCATIONS: Location[] = [
     id: '104',
     name: 'Isabela Akkari',
     category: Category.CafesEDoces,
-    insight: 'Conceito sofisticado focada em doces finos e artesanais, excelente para presentes ou uma indulgência especial.',
+    insight: 'Confeitaria sofisticada focada em doces finos e artesanais, excelente para presentes ou uma indulgência especial.',
     timeToWalk: '7 min',
     priceRange: '$$$',
     mapsUrl: 'https://maps.app.goo.gl/P6PnLBjHWEEUVkkK9',
@@ -1084,7 +1064,7 @@ export const LOCATIONS: Location[] = [
   },
   {
     id: '107',
-    name: 'PoPa Artesanal Hot-Dog (Lanches)',
+    name: 'PoPa Artesanal Hot-Dog',
     category: Category.Lanches,
     insight: 'Aclamado hot dog em pão artesanal e salsichas especiais, queijo e cebola caramelizada opcionais em fast-food.',
     timeToWalk: '3 min',
@@ -1118,9 +1098,9 @@ export const LOCATIONS: Location[] = [
     category: Category.Servicos,
     insight: 'Solução prática e ágil para pequenos reparos e ajustes de emergência no vestuário.',
     timeToWalk: '9 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/BHLdmgE2sqyY4Agh7',
-    isEconomic: true
+    isEconomic: false
   },
   {
     id: '111',
@@ -1128,9 +1108,9 @@ export const LOCATIONS: Location[] = [
     category: Category.Servicos,
     insight: 'Serviço cuidadoso para reformas completas ou customização das suas peças favoritas.',
     timeToWalk: '6 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/4XN6KsuLNA8VZM8P9',
-    isEconomic: true
+    isEconomic: false
   },
   {
     id: '112',
@@ -1138,9 +1118,9 @@ export const LOCATIONS: Location[] = [
     category: Category.Servicos,
     insight: 'Especialistas em praticidade e eficiência para consertos rápidos, como barras e trocas de zíper.',
     timeToWalk: '5 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/xhfuN5zwnkAQoa9r8',
-    isEconomic: true
+    isEconomic: false
   },
   {
     id: '113',
@@ -1148,9 +1128,9 @@ export const LOCATIONS: Location[] = [
     category: Category.Servicos,
     insight: 'Consertos e renovação de calçados com máxima conveniência, literalmente ao lado.',
     timeToWalk: '1 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/pDzDzfdis1VbY3bk8',
-    isEconomic: true
+    isEconomic: false
   },
   {
     id: '114',
@@ -1158,9 +1138,9 @@ export const LOCATIONS: Location[] = [
     category: Category.Servicos,
     insight: 'Ideal para lavagem a seco e cuidados com roupas delicadas ou sociais.',
     timeToWalk: '5 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/W9iDGZmcobSErQTn8',
-    isEconomic: true
+    isEconomic: false
   },
   {
     id: '115',
@@ -1168,9 +1148,9 @@ export const LOCATIONS: Location[] = [
     category: Category.Servicos,
     insight: 'Serviço de lavanderia profissional com a garantia de uma marca reconhecida.',
     timeToWalk: '6 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/6CYmHC44zMumUGQm9',
-    isEconomic: true
+    isEconomic: false
   },
   {
     id: '116',
@@ -1178,9 +1158,9 @@ export const LOCATIONS: Location[] = [
     category: Category.Servicos,
     insight: 'Solução prática e próxima para ajustes rápidos e pequenas reformas de roupas.',
     timeToWalk: '4 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/HWwCVkWGcVFrkPh38',
-    isEconomic: true
+    isEconomic: false
   },
   {
     id: '117',
@@ -1188,19 +1168,19 @@ export const LOCATIONS: Location[] = [
     category: Category.Servicos,
     insight: 'Rede consolidada, ótima para lavagem e passagem de roupas a seco.',
     timeToWalk: '4 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/jLrwJxGd6WuiroMZ7',
-    isEconomic: true
+    isEconomic: false
   },
   {
     id: '118',
-    name: 'Drogaria São Paulo (Augusta)',
+    name: 'Drogaria São Paulo',
     category: Category.Servicos,
     insight: 'Farmácia completa para medicamentos, higiene e emergências.',
     timeToWalk: '9 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/oJTDdgeDBYmF5FFb8',
-    isEconomic: true
+    isEconomic: false
   },
   {
     id: '119',
@@ -1208,9 +1188,9 @@ export const LOCATIONS: Location[] = [
     category: Category.Servicos,
     insight: 'Perfeita para presentes de última hora ou decoração, a apenas 3 minutos de distância.',
     timeToWalk: '3 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/ve1qkrjLc1vg55d89',
-    isEconomic: true
+    isEconomic: false
   },
   {
     id: '120',
@@ -1224,7 +1204,7 @@ export const LOCATIONS: Location[] = [
   },
   {
     id: '121',
-    name: 'Minuto Pão de Açúcar (Lorena)',
+    name: 'Minuto Pão de Açúcar',
     category: Category.Mercados,
     insight: 'Mercado de bairro compacto, excelente para compras rápidas e reposição da despensa.',
     timeToWalk: '8 min',
@@ -1274,7 +1254,7 @@ export const LOCATIONS: Location[] = [
   },
   {
     id: '126',
-    name: 'Papelaria Santa Augusta',
+    name: 'Papelaria Santa Augusta – papelaria e assistência técnica',
     category: Category.Servicos,
     insight: 'Melhor custo-benefício ($) da região, com o bônus de oferecer assistência técnica.',
     timeToWalk: '6 min',
@@ -1304,13 +1284,13 @@ export const LOCATIONS: Location[] = [
   },
   {
     id: '129',
-    name: 'Caixa Eletrônico (Pão de Açúcar)',
+    name: 'Caixa Eletrônico (dentro do Pão de Açúcar)',
     category: Category.Servicos,
     insight: 'Saque de dinheiro rápido e seguro, a apenas 1 minuto de distância.',
     timeToWalk: '1 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/64AUiDvvytg2fenr6',
-    isEconomic: true
+    isEconomic: false
   },
   {
     id: '130',
@@ -1318,9 +1298,9 @@ export const LOCATIONS: Location[] = [
     category: Category.Servicos,
     insight: 'Agência central e muito acessível, ideal para despachar encomendas e tratar de serviços postais.',
     timeToWalk: '5 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/gTGHqH5HT4nwZBj49',
-    isEconomic: true
+    isEconomic: false
   },
   {
     id: '131',
@@ -1328,8 +1308,28 @@ export const LOCATIONS: Location[] = [
     category: Category.Servicos,
     insight: 'Alternativa muito prática para envios e devoluções.',
     timeToWalk: '6 min',
-    priceRange: '$',
+    priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/cCpaiMDhsH4DCzXa7',
-    isEconomic: true
+    isEconomic: false
+  },
+  {
+    id: '132',
+    name: 'Pontos de ônibus Rua Augusta',
+    category: Category.Transporte,
+    insight: 'Com várias alternativas de linhas, subindo ou descendo a R. Augusta.',
+    timeToWalk: '6 min',
+    priceRange: '',
+    mapsUrl: 'https://maps.app.goo.gl/deBJxbr7R2uKDjr86',
+    isEconomic: false
+  },
+  {
+    id: '133',
+    name: 'Ponto de ônibus do Corredor da Av. 9 de Julho',
+    category: Category.Transporte,
+    insight: 'Um hub com diversas opções de ônibus expressos, sentido Centro ou Bairro.',
+    timeToWalk: '8 min',
+    priceRange: '',
+    mapsUrl: 'https://maps.app.goo.gl/joKzmhGyBDmH9bXW8',
+    isEconomic: false
   }
 ];

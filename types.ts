@@ -12,7 +12,7 @@ export enum Category {
   Transporte = 'Transporte'
 }
 
-export type PriceRange = '$' | '$$' | '$$$' | '$$$$';
+export type PriceRange = '$' | '$$' | '$$$' | '$$$$' | '';
 
 export interface Location {
   id: string;
