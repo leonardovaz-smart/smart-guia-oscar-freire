@@ -7,10 +7,12 @@ export enum Category {
   HappyHour = 'Happy Hour',
   Wellness = 'Wellness',
   Mercados = 'Mercados',
-  Servicos = 'Serviços'
+  Servicos = 'Serviços',
+  Padarias = 'Padarias',
+  Transporte = 'Transporte'
 }
 
-export type PriceRange = '$' | '$$' | '$$$';
+export type PriceRange = '$' | '$$' | '$$$' | '$$$$';
 
 export interface Location {
   id: string;

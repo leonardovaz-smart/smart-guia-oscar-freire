@@ -18,6 +18,8 @@ const CATEGORY_ITEMS = [
   { label: Category.Wellness, icon: '🧘' },
   { label: Category.Mercados, icon: '🛒' },
   { label: Category.Servicos, icon: '🛠️' },
+  { label: Category.Padarias, icon: '🥖' },
+  { label: Category.Transporte, icon: '🚇' },
 ];
 
 const FilterBar: React.FC<FilterBarProps> = ({
