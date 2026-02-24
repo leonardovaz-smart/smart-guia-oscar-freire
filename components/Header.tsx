@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       </h1>
       <p className="text-lg md:text-xl text-zinc-400 max-w-2xl leading-relaxed">
         <span className="text-white font-semibold">Rua Oscar Freire, 379.</span> O coração pulsante dos Jardins. 
-        Preparamos um guia de sobrevivência para você não se perder (muito) e achar aquele PF honesto ou o café gourmet para impressionar o cliente.
+        Preparamos um guia de sobrevivência para você encontrar aquele PF honesto, o café gourmet para impressionar o cliente, entre muitos outros pontos de interesse.
       </p>
     </header>
   );
