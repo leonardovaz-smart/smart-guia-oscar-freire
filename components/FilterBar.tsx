@@ -64,7 +64,7 @@ const FilterBar: React.FC<FilterBarProps> = ({
             <div className="w-11 h-6 bg-zinc-800 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-zinc-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#31D889] flex-shrink-0"></div>
           </div>
           <span className="ml-4 text-sm font-medium text-zinc-300 leading-snug group-hover:text-white transition-colors">
-            Mostrar apenas opções econômicas <span className="text-zinc-500 font-normal">(até R$ 30)</span>
+            Mostrar apenas opções econômicas
           </span>
         </label>
       </div>
