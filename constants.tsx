@@ -106,7 +106,7 @@ export const LOCATIONS: Location[] = [
     id: '11',
     name: 'Farmácia Pague Menos',
     category: Category.Servicos,
-    insight: 'Medicamentos, produtos de higiene e perfumaria',
+    insight: 'A farmácia mais conveniente da lista (1 min), ideal para emergências imediatas.',
     timeToWalk: '1 min',
     priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/uHDgRV6MZa7ueASTA',
@@ -380,16 +380,6 @@ export const LOCATIONS: Location[] = [
     timeToWalk: '5 min',
     priceRange: '',
     mapsUrl: 'https://maps.app.goo.gl/4CxqPf8GbRRUEqFf9',
-    isEconomic: false
-  },
-  {
-    id: '39',
-    name: 'Pague Menos',
-    category: Category.Servicos,
-    insight: 'A farmácia mais conveniente da lista (1 min), ideal para emergências imediatas.',
-    timeToWalk: '1 min',
-    priceRange: '',
-    mapsUrl: 'https://maps.app.goo.gl/j7kBcHNp9Qq4q5cX6',
     isEconomic: false
   },
   {
