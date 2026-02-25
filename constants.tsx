@@ -104,16 +104,6 @@ export const LOCATIONS: Location[] = [
   },
   {
     id: '11',
-    name: 'Farmácia Pague Menos',
-    category: Category.Servicos,
-    insight: 'A farmácia mais conveniente da lista (1 min), ideal para emergências imediatas.',
-    timeToWalk: '1 min',
-    priceRange: '',
-    mapsUrl: 'https://maps.app.goo.gl/uHDgRV6MZa7ueASTA',
-    isEconomic: false
-  },
-  {
-    id: '12',
     name: 'Restaurante Maracujá',
     category: Category.Restaurantes,
     insight: 'Culinária contemporânea, ideal para almoços leves',
@@ -123,7 +113,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '13',
+    id: '12',
     name: 'Café Zinn',
     category: Category.Restaurantes,
     insight: 'Café da manhã, almoço, brunh e happy hour',
@@ -133,7 +123,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '14',
+    id: '13',
     name: 'Café Zinn (Doces)',
     category: Category.CafesEDoces,
     insight: 'Café da manhã, almoço, brunh e happy hour',
@@ -143,7 +133,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '15',
+    id: '14',
     name: 'Santo Grão',
     category: Category.CafesEDoces,
     insight: 'Cafeteria de especialidade e bistrô em uma atmosfera cosmopolita',
@@ -153,7 +143,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '16',
+    id: '15',
     name: 'Oguru Sushi & Bar',
     category: Category.Restaurantes,
     insight: 'Elegante, tem rodízio considerado o melhor de São Paulo e menu a là carte',
@@ -163,7 +153,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '17',
+    id: '16',
     name: 'Baalbeck',
     category: Category.Restaurantes,
     insight: 'Tradicional restaurante árabe com receitas de família e ótimo custo-benefício',
@@ -173,7 +163,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '18',
+    id: '17',
     name: 'Bacio di Latte',
     category: Category.CafesEDoces,
     insight: 'Sorvetes artesanais cremosos feitos com ingredientes selecionados e técnicas tradicionais',
@@ -183,7 +173,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '19',
+    id: '18',
     name: 'Jardim Paulista',
     category: Category.Restaurantes,
     insight: 'Buffet completo e pratos com massas, risotos e grelhados',
@@ -193,7 +183,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '20',
+    id: '19',
     name: 'NIT Bar de Tapas',
     category: Category.HappyHour,
     insight: 'Tapas modernas, drinks criativos e a alma de Barcelona pra um happy especial',
@@ -203,7 +193,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '21',
+    id: '20',
     name: 'Pão de Açúcar (Rotisserie)',
     category: Category.Restaurantes,
     insight: 'Rotisserie com pratos prontos, saladas, assados e buffet',
@@ -213,7 +203,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '22',
+    id: '21',
     name: 'Go Coffee',
     category: Category.CafesEDoces,
     insight: 'Praticidade pra tomar um café especial, um frapé grab and go...',
@@ -223,7 +213,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '23',
+    id: '22',
     name: 'Belô Restaurante',
     category: Category.CafesEDoces,
     insight: 'Café e brunch durante o dia, lanche para happy hour e jantar, tudo com cardápio mineiro',
@@ -233,7 +223,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '24',
+    id: '23',
     name: 'Belô Restaurante (Brunch)',
     category: Category.Restaurantes,
     insight: 'Brunch o dia todo com DNA Mineiro',
@@ -243,7 +233,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '25',
+    id: '24',
     name: 'Smart Fit',
     category: Category.Wellness,
     insight: 'Treino garantido, bem pertinho do escritório',
@@ -253,7 +243,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '26',
+    id: '25',
     name: 'Voi Fit Academia',
     category: Category.Wellness,
     insight: 'Conveniada ao Wellhub, tem salas de musculação, spinning, esteiras, musculação, sala de dança e lutas',
@@ -263,7 +253,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '27',
+    id: '26',
     name: 'Le Petit Nicolas Café & Pâtisserie',
     category: Category.CafesEDoces,
     insight: 'Confeitaria francesa artesanal e café refinado. O charme do ambiente nos transporta diretamente para Paris',
@@ -273,7 +263,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '28',
+    id: '27',
     name: 'Zena Cucina',
     category: Category.Restaurantes,
     insight: 'Bistrô italiano com mesas externas. Serve pratos à la carte com opções de frios, doces e café.',
@@ -283,7 +273,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '29',
+    id: '28',
     name: 'Oscar Bistrô',
     category: Category.Restaurantes,
     insight: 'Charmoso e baladado, serve saladas, massas e risotos, a "bourbon collection" de café e outras bebidas',
@@ -293,7 +283,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '30',
+    id: '29',
     name: 'Oscar Bistrô (Café)',
     category: Category.CafesEDoces,
     insight: 'Charmoso e baladado, café moderno com o "bourbon collection" e outras bebidas',
@@ -303,7 +293,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '31',
+    id: '30',
     name: 'Burger King',
     category: Category.Lanches,
     insight: 'Hambúrgueres grelhados, batata frita e milk-shakes',
@@ -313,7 +303,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '32',
+    id: '31',
     name: 'BKIN Bar',
     category: Category.HappyHour,
     insight: 'Espaço ao ar livre, música ao vivo, pizza, lanches e porções, drinks autorais',
@@ -323,7 +313,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '33',
+    id: '32',
     name: 'Banco Itaú',
     category: Category.Servicos,
     insight: 'Agência bancária próxima para resolver rotinas financeiras.',
@@ -333,7 +323,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '34',
+    id: '33',
     name: 'Itaú Personnalité',
     category: Category.Servicos,
     insight: 'Atendimento financeiro premium muito conveniente, a apenas 3 minutos.',
@@ -343,7 +333,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '35',
+    id: '34',
     name: 'Banco Caixa Econômica Federal',
     category: Category.Servicos,
     insight: 'Útil para resolver questões bancárias, financiamentos e serviços do governo.',
@@ -353,7 +343,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '36',
+    id: '35',
     name: 'Banco do Brasil',
     category: Category.Servicos,
     insight: 'Agência de fácil acesso para clientes e serviços.',
@@ -363,7 +353,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '37',
+    id: '36',
     name: 'Banco Santander',
     category: Category.Servicos,
     insight: 'Agência ampla, confortável, com estacionamento, fácil acesso e bem segura.',
@@ -373,7 +363,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '38',
+    id: '37',
     name: 'Bradesco',
     category: Category.Servicos,
     insight: 'Opção prática de banco a uma curta caminhada de 6 minutos.',
@@ -383,7 +373,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '39',
+    id: '38',
     name: 'Droga Raia',
     category: Category.Servicos,
     insight: 'Ampla rede de farmácia, excelente para itens de higiene e dermocosméticos.',
@@ -393,7 +383,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '40',
+    id: '39',
     name: 'Pague Menos',
     category: Category.Servicos,
     insight: 'A farmácia mais conveniente da lista (1 min), ideal para emergências imediatas.',
@@ -403,7 +393,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '41',
+    id: '40',
     name: 'Metrô Oscar Freire',
     category: Category.Transporte,
     insight: 'Ponto de mobilidade crucial (Linha Amarela), conectando facilmente a outras regiões.',
@@ -413,7 +403,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '42',
+    id: '41',
     name: 'Livraria da Vila',
     category: Category.Servicos,
     insight: 'Dar uma olhada nas novidades, comprar um bom livro e saborear as famosas empanadas do La Guapa Empanadas',
@@ -423,10 +413,20 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '43',
+    id: '42',
     name: 'Le Pain Quotidien',
     category: Category.CafesEDoces,
-    insight: 'Cadeia belga de padarias orgânicas, oferece pães artesanais, pratos saudáveis e brunch estilo europeu (210 m)2.',
+    insight: 'Cadeia belga de padarias orgânicas, oferece pães artesanais, pratos saudáveis e brunch estilo europeu',
+    timeToWalk: '3 min',
+    priceRange: '$$',
+    mapsUrl: 'https://maps.app.goo.gl/3nTyBYG5k8wG98Fb6',
+    isEconomic: false
+  },
+  {
+    id: '43',
+    name: 'Le Pain Quotidien (Restaurante)',
+    category: Category.Restaurantes,
+    insight: 'Cadeia belga de padarias orgânicas, oferece pães artesanais, pratos saudáveis e brunch estilo europeu',
     timeToWalk: '3 min',
     priceRange: '$$',
     mapsUrl: 'https://maps.app.goo.gl/3nTyBYG5k8wG98Fb6',
@@ -434,9 +434,9 @@ export const LOCATIONS: Location[] = [
   },
   {
     id: '44',
-    name: 'Le Pain Quotidien (Restaurante)',
-    category: Category.Restaurantes,
-    insight: 'Cadeia belga de padarias orgânicas, oferece pães artesanais, pratos saudáveis e brunch estilo europeu (210 m)2.',
+    name: 'Le Pain Quotidien (Padaria)',
+    category: Category.Padarias,
+    insight: 'Cadeia belga de padarias orgânicas, oferece pães artesanais, pratos saudáveis e brunch estilo europeu',
     timeToWalk: '3 min',
     priceRange: '$$',
     mapsUrl: 'https://maps.app.goo.gl/3nTyBYG5k8wG98Fb6',
@@ -444,16 +444,6 @@ export const LOCATIONS: Location[] = [
   },
   {
     id: '45',
-    name: 'Le Pain Quotidien (Padaria)',
-    category: Category.Padarias,
-    insight: 'Cadeia belga de padarias orgânicas, oferece pães artesanais, pratos saudáveis e brunch estilo europeu (210 m)2.',
-    timeToWalk: '3 min',
-    priceRange: '$$',
-    mapsUrl: 'https://maps.app.goo.gl/3nTyBYG5k8wG98Fb6',
-    isEconomic: false
-  },
-  {
-    id: '46',
     name: 'Momo Gelato',
     category: Category.CafesEDoces,
     insight: 'Gelato artesanal, tortas di gelato, waffle, panini e salgados, café da manhã',
@@ -463,7 +453,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '47',
+    id: '46',
     name: 'Almanara',
     category: Category.Restaurantes,
     insight: 'Tradicional restaurante libanês com rodízio de pratos árabes (espetinhos, quibes, esfihas) e menu à la carte; sabor autêntico4.',
@@ -473,7 +463,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '48',
+    id: '47',
     name: 'Nakka Sushi',
     category: Category.Restaurantes,
     insight: 'Sushi bar e rodízio japonês no Jardins, oferece variedade de sushis, sashimis e pratos orientais, considerado um “pedaço do Japão”5.',
@@ -483,7 +473,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '49',
+    id: '48',
     name: 'Modern Mamma Osteria',
     category: Category.Restaurantes,
     insight: 'Osteria moderna com inspiração mediterrânea, serve pratos italianos contemporâneos (massas, risotos, carnes) em ambiente informal.',
@@ -493,7 +483,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '50',
+    id: '49',
     name: 'Frevo',
     category: Category.Lanches,
     insight: 'Lanchonete icônica, tem seu tradicional beirute, sanduíches e pratos rápidos',
@@ -503,7 +493,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '51',
+    id: '50',
     name: 'Botanikafé Jardins',
     category: Category.CafesEDoces,
     insight: 'Café contemporâneo focado em alimentação saudável (bowls, smoothies, saladas), menu sem glúten e vegetarianas.',
@@ -513,7 +503,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '52',
+    id: '51',
     name: 'Z Deli Restaurante e Delicatessen',
     category: Category.Restaurantes,
     insight: 'Delicatessen judaica famosa por sanduíches artesanais e hambúrgueres kosher, ambiente descontraído.',
@@ -523,7 +513,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '53',
+    id: '52',
     name: 'Piselli Jardins',
     category: Category.Restaurantes,
     insight: 'Trattoria italiana de culinária clássica, pratos generosos (nhoques, carnes, massas caseiras) em ambiente rústico.',
@@ -533,7 +523,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '54',
+    id: '53',
     name: 'Bar Astor Oscar Freire',
     category: Category.HappyHour,
     insight: 'Happy hour clássico a poucos passos (3 min) para o fim do expediente.',
@@ -543,7 +533,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '55',
+    id: '54',
     name: 'Frutaria São Paulo (Buffet)',
     category: Category.Restaurantes,
     insight: 'Feira de comida saudável no modelo de buffet a quilo, frutas, saladas e pratos orgânicos, no bairro (Alameda Jau).',
@@ -553,7 +543,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '56',
+    id: '55',
     name: 'Benjamin a Padaria',
     category: Category.Padarias,
     insight: 'Padaria com variedades de pães e lanches rápidos (artesanais) – opção para café da manhã e lanches.',
@@ -563,7 +553,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '57',
+    id: '56',
     name: 'Kopenhagen Oscar Freire',
     category: Category.CafesEDoces,
     insight: 'Loja da tradicional rede de chocolates, oferece bombons artesanais, trufas e chocolates finos para presente.',
@@ -573,7 +563,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '58',
+    id: '57',
     name: 'Cacau Show Oscar Freire',
     category: Category.CafesEDoces,
     insight: 'Chocolateria popular, vende brigadeiros gourmet, trufas e caixas de chocolate a preços acessíveis.',
@@ -583,7 +573,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '59',
+    id: '58',
     name: 'Figueira Rubaiyat',
     category: Category.Restaurantes,
     insight: 'Churrascaria icônica com imensa figueira centenária no centro do salão; carnes nobres e buffet refinado.',
@@ -593,7 +583,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '60',
+    id: '59',
     name: 'Mondo Gastronômico',
     category: Category.Restaurantes,
     insight: 'Restaurante contemporâneo de cozinha italiana moderna, pratos criativos e ambiente sofisticado.',
@@ -603,7 +593,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '61',
+    id: '60',
     name: 'Picchi Restaurante',
     category: Category.Restaurantes,
     insight: 'Culinária italiana contemporânea em ambiente refinado, com carnes nobres e massas artesanais.',
@@ -613,7 +603,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '62',
+    id: '61',
     name: 'Emiliano',
     category: Category.Restaurantes,
     insight: 'Restaurante italiano com cardápio sofisticado e grande seleção de vinhos e champanhes.',
@@ -623,7 +613,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '63',
+    id: '62',
     name: 'Restaurante Flor de Sal',
     category: Category.Restaurantes,
     insight: 'Almoço econômico e prático para o dia a dia.',
@@ -633,7 +623,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '64',
+    id: '63',
     name: 'Augusta Gourmet',
     category: Category.Restaurantes,
     insight: 'Buffet variado de preço médio, ideal para a pausa do almoço corporativo.',
@@ -643,7 +633,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '65',
+    id: '64',
     name: 'Estoril Grill',
     category: Category.Restaurantes,
     insight: 'Refeição tradicional com grelhados a uma distância confortável.',
@@ -653,7 +643,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '66',
+    id: '65',
     name: 'Cebola Brava',
     category: Category.Restaurantes,
     insight: 'Ótimo custo-benefício para um almoço rápido e sem frescuras.',
@@ -663,17 +653,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '67',
-    name: 'Lanchonete Ministro',
-    category: Category.Restaurantes,
-    insight: 'Lanches e pratos feitos muito acessíveis e bem perto de você.',
-    timeToWalk: '4 min',
-    priceRange: '$',
-    mapsUrl: 'https://maps.app.goo.gl/LiwPyrFNiMuVZxGs8',
-    isEconomic: true
-  },
-  {
-    id: '68',
+    id: '66',
     name: 'Anis Restaurante e Café',
     category: Category.Restaurantes,
     insight: 'Ambiente charmoso para misturar almoço e uma pausa gostosa para o café.',
@@ -683,7 +663,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '69',
+    id: '67',
     name: 'Café e Restaurante Vitrine',
     category: Category.Restaurantes,
     insight: 'Opção sólida para refeições, valendo a caminhada ligeiramente maior (10 min).',
@@ -693,17 +673,17 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '70',
+    id: '68',
     name: 'Lanchonete Bardot III',
     category: Category.Restaurantes,
-    insight: 'Praticidade de padaria/lanchonete para salgados, sucos e refeições rápidas e baratas 6 min $ https://maps.app.goo.gl/9xUHikQDanjKLh6U8',
+    insight: 'Praticidade de padaria/lanchonete para salgados, sucos e refeições rápidas e baratas',
     timeToWalk: '6 min',
     priceRange: '$',
     mapsUrl: 'https://maps.app.goo.gl/9xUHikQDanjKLh6U8',
     isEconomic: true
   },
   {
-    id: '71',
+    id: '69',
     name: 'Sina Café',
     category: Category.CafesEDoces,
     insight: 'Ótima pedida para reuniões informais ou uma pausa para doces e cafés de qualidade.',
@@ -713,7 +693,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '72',
+    id: '70',
     name: 'La Braciera',
     category: Category.HappyHour,
     insight: 'Ambiente mais exclusivo e premium, excelente para jantares ou comemorações.',
@@ -723,7 +703,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '73',
+    id: '71',
     name: 'La Guapa',
     category: Category.Restaurantes,
     insight: 'Este café especializado em empanadas é um destino para amantes de livros, junto à Livraria da Vila.',
@@ -733,8 +713,8 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '74',
-    name: 'La Guapa (Café)',
+    id: '72',
+    name: 'La Guapa (Cafés & Doces)',
     category: Category.CafesEDoces,
     insight: 'Este café especializado em empanadas é um destino para amantes de livros, junto à Livraria da Vila.',
     timeToWalk: '6 min',
@@ -743,7 +723,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '75',
+    id: '73',
     name: "L'Entrecote de Paris",
     category: Category.Restaurantes,
     insight: 'Restaurante francês clássico em cada detalhe, que serve nada além de contrafilé com batatas fritas.',
@@ -753,17 +733,17 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '76',
+    id: '74',
     name: 'Dona do Doce Oscar Freire',
     category: Category.CafesEDoces,
-    insight: 'Bolachinhas artesanais, ideias para um café à tarde 1 min $$ https://maps.app.goo.gl/ZvBHVHMPmQJYVdFAA',
+    insight: 'Bolachinhas artesanais, ideias para um café à tarde',
     timeToWalk: '1 min',
     priceRange: '$$',
     mapsUrl: 'https://maps.app.goo.gl/ZvBHVHMPmQJYVdFAA',
     isEconomic: false
   },
   {
-    id: '77',
+    id: '75',
     name: 'Beefbar',
     category: Category.Restaurantes,
     insight: 'Experiência gastronômica sofisticada e muito próxima (3 min), ideal para um almoço de negócios ou jantar elegante.',
@@ -773,7 +753,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '78',
+    id: '76',
     name: 'Being Coffee',
     category: Category.CafesEDoces,
     insight: 'Café de qualidade e ambiente agradável para uma pausa confortável perto de você.',
@@ -783,7 +763,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '79',
+    id: '77',
     name: "Dinho's Jardins",
     category: Category.Restaurantes,
     insight: 'Carnes nobres e tradição em um ambiente requintado, a uma curta caminhada.',
@@ -793,7 +773,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '80',
+    id: '78',
     name: 'Il Covo',
     category: Category.HappyHour,
     insight: 'Coquetelaria de alta classe e ambiente exclusivo para um happy hour diferenciado.',
@@ -803,7 +783,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '81',
+    id: '79',
     name: 'Fame Osteria',
     category: Category.Restaurantes,
     insight: 'Gastronomia italiana intimista e de altíssimo nível, muito pertinho do escritório.',
@@ -813,7 +793,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '82',
+    id: '80',
     name: 'QT Pizza Bar',
     category: Category.HappyHour,
     insight: 'Pizzas napolitanas e drinks em um ambiente descolado e super perto para relaxar no fim do dia.',
@@ -823,7 +803,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '83',
+    id: '81',
     name: 'Restaurante Murakami',
     category: Category.Restaurantes,
     insight: 'Alta gastronomia japonesa para uma experiência culinária luxuosa e inesquecível.',
@@ -833,7 +813,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '84',
+    id: '82',
     name: 'Restaurante Jardim Paulista',
     category: Category.Restaurantes,
     insight: 'Comida caseira acessível e honesta, uma ótima pedida para o almoço rotineiro.',
@@ -843,7 +823,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '85',
+    id: '83',
     name: 'Restaurante Maracujá',
     category: Category.Restaurantes,
     insight: 'Opção equilibrada e com valor justo para variar o cardápio no meio da semana.',
@@ -853,7 +833,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '86',
+    id: '84',
     name: 'Eskina Nove',
     category: Category.Restaurantes,
     insight: 'Pratos bem servidos e bem econômicos, valendo a caminhada de 9 minutos.',
@@ -863,7 +843,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '87',
+    id: '85',
     name: 'Lanchonete Estrela Nove',
     category: Category.Restaurantes,
     insight: 'Lanches e refeições rápidas com excelente custo para quem busca economizar no dia a dia.',
@@ -873,7 +853,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '88',
+    id: '86',
     name: 'Lanchonete e Restaurante Caju Verde',
     category: Category.Restaurantes,
     insight: 'Comida simples e barata, mais uma alternativa viável e acessível para o almoço.',
@@ -883,7 +863,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '89',
+    id: '87',
     name: 'Lanchonete Cuca Legal',
     category: Category.Restaurantes,
     insight: 'A opção econômica mais próxima (5 min) para um salgado rápido ou prato feito de última hora.',
@@ -893,7 +873,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '90',
+    id: '88',
     name: "Carlo's Bakery São Paulo",
     category: Category.CafesEDoces,
     insight: 'A famosa confeitaria é uma ótima escolha para sobremesas especiais, bolos, e experimentar os famosos Lobster Tail e cannoli.',
@@ -903,7 +883,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '91',
+    id: '89',
     name: 'Galeria dos Pães',
     category: Category.Padarias,
     insight: 'Padaria icônica e super completa, uma excelente saída para refeições a qualquer hora.',
@@ -913,7 +893,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '92',
+    id: '90',
     name: 'Le Blé Petit - Casa de Pães',
     category: Category.Padarias,
     insight: 'Pães artesanais e confeitaria de primeira em um espaço charmoso, a apenas 3 minutos.',
@@ -923,7 +903,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '93',
+    id: '91',
     name: 'Padaria Mosteiro – Unidade Jardins',
     category: Category.Padarias,
     insight: 'Uma padaria elegante com decoração moderna, que serve pães artesanais, geleias, doces, bolos e licores.',
@@ -933,7 +913,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '94',
+    id: '92',
     name: 'América Bakery Pães e Doces',
     category: Category.Padarias,
     insight: 'Padaria tradicional e com preços muito amigáveis para o pãozinho ou lanche da tarde.',
@@ -943,7 +923,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '95',
+    id: '93',
     name: 'Alameda dos Pães',
     category: Category.Padarias,
     insight: 'Boa variedade de pães e lanches com preços justos e sem frescura.',
@@ -953,7 +933,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '96',
+    id: '94',
     name: 'Sensory Coffee Jardins',
     category: Category.CafesEDoces,
     insight: 'Cafés especiais, toasts, saduíches e patisserie',
@@ -963,7 +943,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '97',
+    id: '95',
     name: 'Sterna Café - Jardins',
     category: Category.CafesEDoces,
     insight: 'Café de especialidade com espaço confortável, ótimo para encontros de trabalho.',
@@ -973,7 +953,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '98',
+    id: '96',
     name: 'Il Barista',
     category: Category.CafesEDoces,
     insight: 'Cafeteria premium com blends exclusivos, ideal para apreciadores de cafés especiais.',
@@ -983,7 +963,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '99',
+    id: '97',
     name: 'Lanchonete Snoopy',
     category: Category.Restaurantes,
     insight: 'Clima descontraído e cardápio de lanches tradicionais com excelente custo-benefício.',
@@ -993,7 +973,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '100',
+    id: '98',
     name: 'Boteco Dona Dica',
     category: Category.Restaurantes,
     insight: 'Comida de boteco autêntica e pratos bem servidos para um almoço reconfortante.',
@@ -1003,7 +983,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '101',
+    id: '99',
     name: 'Boteco Dona Dica (Happy Hour)',
     category: Category.HappyHour,
     insight: 'Ambiente animado e porções generosas, perfeito para confraternizar após o expediente.',
@@ -1013,7 +993,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '102',
+    id: '100',
     name: 'The Coffee',
     category: Category.CafesEDoces,
     insight: 'Conceito minimalista e tecnológico, focado em cafés de alta qualidade no estilo "para viagem" (to go).',
@@ -1023,7 +1003,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '103',
+    id: '101',
     name: 'Hokka Cream Sorveteria',
     category: Category.CafesEDoces,
     insight: 'Sorvetes japoneses artesanais e sobremesas refrescantes de boa qualidade para adoçar o dia.',
@@ -1033,7 +1013,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '104',
+    id: '102',
     name: 'Café Vivo',
     category: Category.CafesEDoces,
     insight: 'Espaço agradável e equilibrado, oferecendo uma pausa confortável e opções de cafeteria.',
@@ -1043,7 +1023,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '105',
+    id: '103',
     name: 'Isabela Akkari',
     category: Category.CafesEDoces,
     insight: 'Confeitaria sofisticada focada em doces finos e artesanais, excelente para presentes ou uma indulgência especial.',
@@ -1053,7 +1033,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '106',
+    id: '104',
     name: 'Café Jardins',
     category: Category.CafesEDoces,
     insight: 'Cafeteria de bairro super acolhedora e com opções muito acessíveis para o dia a dia.',
@@ -1063,7 +1043,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '107',
+    id: '105',
     name: 'OAKBERRY Açaí',
     category: Category.CafesEDoces,
     insight: 'Lanche rápido, altamente customizável e energético para qualquer momento.',
@@ -1073,7 +1053,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '108',
+    id: '106',
     name: 'PoPa Artesanal Hot-Dog',
     category: Category.Lanches,
     insight: 'Aclamado hot dog em pão artesanal e salsichas especiais, queijo e cebola caramelizada opcionais em fast-food.',
@@ -1083,7 +1063,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '109',
+    id: '107',
     name: 'Bar do Boneco',
     category: Category.Restaurantes,
     insight: 'Refeições caseiras e fartas com um valor super acessível, no clássico estilo "comida de balcão".',
@@ -1093,7 +1073,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: true
   },
   {
-    id: '110',
+    id: '108',
     name: 'naJanela Padaria Artesanal - Jardins',
     category: Category.Padarias,
     insight: 'Foco em fermentação natural e receitas exclusivas para quem busca pães frescos e diferenciados.',
@@ -1103,7 +1083,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '111',
+    id: '109',
     name: 'Multicostura Express',
     category: Category.Servicos,
     insight: 'Solução prática e ágil para pequenos reparos e ajustes de emergência no vestuário.',
@@ -1113,7 +1093,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '112',
+    id: '110',
     name: 'Soffy Ateliê de Costura',
     category: Category.Servicos,
     insight: 'Serviço cuidadoso para reformas completas ou customização das suas peças favoritas.',
@@ -1123,7 +1103,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '113',
+    id: '111',
     name: 'Ziper Zap ateliê de costura',
     category: Category.Servicos,
     insight: 'Especialistas em praticidade e eficiência para consertos rápidos, como barras e trocas de zíper.',
@@ -1133,7 +1113,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '114',
+    id: '112',
     name: 'Sapataria Poppy',
     category: Category.Servicos,
     insight: 'Consertos e renovação de calçados com máxima conveniência, literalmente ao lado.',
@@ -1143,7 +1123,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '115',
+    id: '113',
     name: 'Lavanderia DryClean USA',
     category: Category.Servicos,
     insight: 'Ideal para lavagem a seco e cuidados com roupas delicadas ou sociais.',
@@ -1153,7 +1133,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '116',
+    id: '114',
     name: 'OMO Lavanderia Especializada Ministro Rocha',
     category: Category.Servicos,
     insight: 'Serviço de lavanderia profissional com a garantia de uma marca reconhecida.',
@@ -1163,7 +1143,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '117',
+    id: '115',
     name: 'Ateliê Augusta Pop - conserto e reforma de roupas',
     category: Category.Servicos,
     insight: 'Solução prática e próxima para ajustes rápidos e pequenas reformas de roupas.',
@@ -1173,7 +1153,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '118',
+    id: '116',
     name: 'Lavanderia 5àSec',
     category: Category.Servicos,
     insight: 'Rede consolidada, ótima para lavagem e passagem de roupas a seco.',
@@ -1183,7 +1163,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '119',
+    id: '117',
     name: 'Drogaria São Paulo',
     category: Category.Servicos,
     insight: 'Farmácia completa para medicamentos, higiene e emergências.',
@@ -1193,7 +1173,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '120',
+    id: '118',
     name: 'Floricultura Colômbia Flora',
     category: Category.Servicos,
     insight: 'Perfeita para presentes de última hora ou decoração, a apenas 3 minutos de distância.',
@@ -1203,7 +1183,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '121',
+    id: '119',
     name: 'Swift - Oscar Freire',
     category: Category.Mercados,
     insight: 'Carnes e congelados práticos com bom custo-benefício, logo na esquina.',
@@ -1213,7 +1193,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '122',
+    id: '120',
     name: 'Minuto Pão de Açúcar',
     category: Category.Mercados,
     insight: 'Mercado de bairro compacto, excelente para compras rápidas e reposição da despensa.',
@@ -1223,7 +1203,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '123',
+    id: '121',
     name: 'Carrefour Hipermercado – Shopping Jardim Pamplona',
     category: Category.Mercados,
     insight: 'Compra do mês completa e diversificada com a comodidade do Shopping Pamplona.',
@@ -1233,7 +1213,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '124',
+    id: '122',
     name: 'Kalunga – Shopping Jardim Pamplona',
     category: Category.Servicos,
     insight: 'Variedade imbatível para suprimentos de escritório, informática e material escolar.',
@@ -1243,7 +1223,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '125',
+    id: '123',
     name: 'Livraria da Vila – Shopping Jardim Pamplona',
     category: Category.Servicos,
     insight: 'Ótimo ambiente no shopping para buscar lançamentos literários ou comprar presentes.',
@@ -1253,7 +1233,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '126',
+    id: '124',
     name: 'Spoleto – Shopping Jardim Pamplona',
     category: Category.Restaurantes,
     insight: 'Refeição rápida, quente e personalizável na praça de alimentação.',
@@ -1263,17 +1243,17 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '127',
+    id: '125',
     name: 'Papelaria Santa Augusta – papelaria e assistência técnica',
     category: Category.Servicos,
-    insight: 'Melhor custo-benefício ($) da região, com o bônus de oferecer assistência técnica.',
+    insight: 'Melhor custo-benefício da região, com o bônus de oferecer assistência técnica.',
     timeToWalk: '6 min',
     priceRange: '$',
     mapsUrl: 'https://maps.app.goo.gl/BxeWuXDP7zKSqyT89',
     isEconomic: true
   },
   {
-    id: '128',
+    id: '126',
     name: 'Papelaria Papel Craft – Lorena',
     category: Category.Servicos,
     insight: 'Papelaria focada em cadernos sofisticados e presentes exclusivos.',
@@ -1283,7 +1263,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '129',
+    id: '127',
     name: 'Papelaria e Presentes Ocraft Jardins',
     category: Category.Servicos,
     insight: 'Opção para itens criativos e papelaria diferenciada nos Jardins.',
@@ -1293,7 +1273,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '130',
+    id: '128',
     name: 'Caixa Eletrônico (dentro do Pão de Açúcar)',
     category: Category.Servicos,
     insight: 'Saque de dinheiro rápido e seguro, a apenas 1 minuto de distância.',
@@ -1303,7 +1283,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '131',
+    id: '129',
     name: 'Correios – Rua Augusta',
     category: Category.Servicos,
     insight: 'Agência central e muito acessível, ideal para despachar encomendas e tratar de serviços postais.',
@@ -1313,7 +1293,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '132',
+    id: '130',
     name: 'Correios – Rua Estados Unidos',
     category: Category.Servicos,
     insight: 'Alternativa muito prática para envios e devoluções.',
@@ -1323,7 +1303,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '133',
+    id: '131',
     name: 'Pontos de ônibus Rua Augusta',
     category: Category.Transporte,
     insight: 'Com várias alternativas de linhas, subindo ou descendo a R. Augusta.',
@@ -1333,7 +1313,7 @@ export const LOCATIONS: Location[] = [
     isEconomic: false
   },
   {
-    id: '134',
+    id: '132',
     name: 'Ponto de ônibus do Corredor da Av. 9 de Julho',
     category: Category.Transporte,
     insight: 'Um hub com diversas opções de ônibus expressos, sentido Centro ou Bairro.',
