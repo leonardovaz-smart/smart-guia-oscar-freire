@@ -55,8 +55,8 @@ const App: React.FC = () => {
           </div>
         ) : (
           <div className="py-20 text-center">
-            <h3 className="text-2xl font-bold text-zinc-600 mb-2">Ops, nada por aqui ainda.</h3>
-            <p className="text-zinc-500">Talvez o estagiário tenha esquecido de cadastrar ou não sobrou verba pra essa categoria.</p>
+            <h3 className="text-2xl font-bold text-zinc-600 mb-2">Vixe, o radar falhou! 📡</h3>
+            <p className="text-zinc-500 text-lg">Não encontramos nada por aqui. Que tal tentar uma busca diferente ou explorar outras categorias?</p>
           </div>
         )}
 
