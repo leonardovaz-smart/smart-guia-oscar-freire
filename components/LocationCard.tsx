@@ -1,11 +1,9 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Location } from '../types';
-import { Star } from 'lucide-react';
 
 interface LocationCardProps {
   location: Location;
-  onRate: (locationId: string, rating: number) => void;
 }
 
 const WalkingIcon = () => (
@@ -18,47 +16,14 @@ const WalkingIcon = () => (
   </svg>
 );
 
-const LocationCard: React.FC<LocationCardProps> = ({ location, onRate }) => {
-  const [hoverRating, setHoverRating] = useState(0);
-
-  const renderStars = () => {
-    return (
-      <div className="flex items-center gap-1">
-        {[1, 2, 3, 4, 5].map((star) => (
-          <button
-            key={star}
-            onMouseEnter={() => setHoverRating(star)}
-            onMouseLeave={() => setHoverRating(0)}
-            onClick={() => onRate(location.id, star)}
-            className="focus:outline-none transition-transform hover:scale-110"
-          >
-            <Star
-              className={`w-4 h-4 ${
-                (hoverRating || Math.round(location.rating || 0)) >= star
-                  ? 'fill-[#31D889] text-[#31D889]'
-                  : 'text-zinc-600'
-              }`}
-            />
-          </button>
-        ))}
-        <span className="text-xs text-zinc-500 ml-1">
-          ({location.ratingCount || 0})
-        </span>
-      </div>
-    );
-  };
-
+const LocationCard: React.FC<LocationCardProps> = ({ location }) => {
   return (
     <div className="bg-[#111111] rounded-2xl border border-zinc-800 p-6 flex flex-col h-full hover:border-[#31D889]/30 transition-colors duration-300">
-      <div className="flex justify-between items-start mb-2">
+      <div className="flex justify-between items-start mb-4">
         <h3 className="text-xl font-bold text-white pr-4">{location.name}</h3>
         <span className="text-[10px] uppercase tracking-widest px-2 py-1 rounded border border-[#31D889] text-[#31D889] font-bold shrink-0">
           {location.category.toUpperCase().replace('&', 'E')}
         </span>
-      </div>
-
-      <div className="mb-4">
-        {renderStars()}
       </div>
 
       <div className="flex items-center gap-3 text-sm text-zinc-400 mb-4">

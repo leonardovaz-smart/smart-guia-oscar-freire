@@ -23,6 +23,4 @@ export interface Location {
   priceRange: PriceRange;
   mapsUrl: string;
   isEconomic: boolean; // Below R$30
-  rating?: number;
-  ratingCount?: number;
 }

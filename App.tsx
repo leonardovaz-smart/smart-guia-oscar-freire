@@ -1,69 +1,26 @@
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import Header from './components/Header';
 import FilterBar from './components/FilterBar';
 import LocationCard from './components/LocationCard';
 import { LOCATIONS } from './constants';
-import { Category, Location } from './types';
+import { Category } from './types';
 import { Search } from 'lucide-react';
 
 const App: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<Category>(Category.Tudo);
   const [showEconomicOnly, setShowEconomicOnly] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
-  const [ratings, setRatings] = useState<Record<string, { totalRating: number, count: number }>>({});
-
-  useEffect(() => {
-    fetchRatings();
-  }, []);
-
-  const fetchRatings = async () => {
-    try {
-      const response = await fetch('/api/ratings');
-      if (response.ok) {
-        const data = await response.json();
-        setRatings(data);
-      }
-    } catch (error) {
-      console.error('Error fetching ratings:', error);
-    }
-  };
-
-  const handleRate = async (locationId: string, rating: number) => {
-    try {
-      const response = await fetch('/api/ratings', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ locationId, rating }),
-      });
-      if (response.ok) {
-        fetchRatings(); // Refresh ratings
-      }
-    } catch (error) {
-      console.error('Error posting rating:', error);
-    }
-  };
-
-  const locationsWithRatings = useMemo(() => {
-    return LOCATIONS.map(loc => {
-      const ratingData = ratings[loc.id];
-      return {
-        ...loc,
-        rating: ratingData ? ratingData.totalRating / ratingData.count : 0,
-        ratingCount: ratingData ? ratingData.count : 0
-      };
-    });
-  }, [ratings]);
 
   const filteredLocations = useMemo(() => {
-    return locationsWithRatings.filter((loc) => {
+    return LOCATIONS.filter((loc) => {
       const matchesCategory = selectedCategory === Category.Tudo || loc.category === selectedCategory;
       const matchesEconomic = showEconomicOnly ? loc.isEconomic : true;
       const matchesSearch = loc.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
                             loc.insight.toLowerCase().includes(searchQuery.toLowerCase());
       return matchesCategory && matchesEconomic && matchesSearch;
     });
-  }, [selectedCategory, showEconomicOnly, searchQuery, locationsWithRatings]);
+  }, [selectedCategory, showEconomicOnly, searchQuery]);
 
   return (
     <div className="min-h-screen bg-black text-white px-6 pb-20">
@@ -93,7 +50,7 @@ const App: React.FC = () => {
         {filteredLocations.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredLocations.map((location) => (
-              <LocationCard key={location.id} location={location} onRate={handleRate} />
+              <LocationCard key={location.id} location={location} />
             ))}
           </div>
         ) : (

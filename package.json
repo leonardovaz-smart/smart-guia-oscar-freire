@@ -4,19 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx server.ts",
+    "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.98.0",
-    "cors": "^2.8.6",
-    "express": "^5.2.1",
     "lucide-react": "^0.575.0",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "tsx": "^4.21.0"
+    "react-dom": "^19.2.3"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
